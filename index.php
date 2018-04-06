@@ -72,10 +72,11 @@
     <b>Get the <a href="https://chrome.google.com/webstore/detail/the-password-genie/ccdnljkkehejmcfnmifnkpnodlikdehg?hl=en">Chrome extension</a></b>
     <div class="github-links">
       <a class="github-button" href="https://github.com/Revplit" aria-label="Follow @Mootje on GitHub">Follow @Mootje</a>
+      <a class="github-button" href="https://github.com/Ryonoo" aria-label="Follow @Ryonoo on GitHub">Follow @Ryonoo</a>
       <a class="github-button" href="https://github.com/Revplit-team/password-generator-js" data-icon="octicon-star" aria-label="Star Revplit-team/password-generator-js on GitHub">Star</a>
     </div>  
     Made with <3 by <a href="https://revplit.com/">Revplit</a><br>
-    View on <a href="https://github.com/Revplit-team/password-generator-js">Github</a> or play around with it on <a href="https://codepen.io/nourabusoud/pen/YeMOVv">Codepen</a>
+    View on <a href="https://github.com/Revplit-team/password-generator-js">Github</a>.
   </footer>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
@@ -243,7 +244,17 @@ new Vue({
           digitsPositionArray.splice(j, 1);
         }
       }
-      
+      // add special characters "symbols"
+      for (i = 0; i < this.settings.symbols; i++) {
+        var symbol = symbolsSetArray[Math.floor(Math.random()*symbolsSetArray.length)];
+        var symbolIndex = digitsPositionArray[Math.floor(Math.random()*digitsPositionArray.length)];
+        passwordArray[symbolIndex] =  symbol;
+        /* remove position from digitsPositionArray so we make sure to the have the exact number of digits in our password
+        since without this step, numbers may override other numbers */
+        var j = digitsPositionArray.indexOf(symbolIndex);
+        if(i != -1) {
+          digitsPositionArray.splice(j, 1);
+        }
       }
       this.password = passwordArray.join("");
     },
