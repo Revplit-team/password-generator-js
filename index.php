@@ -69,7 +69,6 @@
     </section>
   </div>
   <footer>
-    <b>Get the <a href="https://chrome.google.com/webstore/detail/the-password-genie/ccdnljkkehejmcfnmifnkpnodlikdehg?hl=en">Chrome extension</a></b>
     <div class="github-links">
       <a class="github-button" href="https://github.com/Revplit" aria-label="Follow @Mootje on GitHub">Follow @Mootje</a>
       <a class="github-button" href="https://github.com/Ryonoo" aria-label="Follow @Ryonoo on GitHub">Follow @Ryonoo</a>
