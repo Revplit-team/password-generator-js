@@ -245,7 +245,7 @@ new Vue({
       }
       // add special characters "symbols"
       for (i = 0; i < this.settings.symbols; i++) {
-        
+        var symbol = symbolsSetArray[Math.floor(Math.random()*symbolsSetArray.length)];
         var symbolIndex = digitsPositionArray[Math.floor(Math.random()*digitsPositionArray.length)];
         passwordArray[symbolIndex] =  symbol;
         /* remove position from digitsPositionArray so we make sure to the have the exact number of digits in our password
