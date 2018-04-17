@@ -1,23 +1,26 @@
 # password-generator-js
 A simple password generator that helps your protect all your important accounts.
 
-Minimum length: 6
+<img src="https://i.imgur.com/b5GrHhj.png">
 
-Maximum lenght: 64
+**Minimum length**: 6
 
-Minimum amount of digits: 0
+**Maximum lenght**: 64
 
-Maximum amount of digits: 10
+**Minimum amount of digits**: 0
 
-Minimum amount of symbols: 0
+**Maximum amount of digits**: 10
 
-Maximum amount of symbols: 10
+**Minimum amount of symbols**: 0
+
+**Maximum amount of symbols**: 10
  
 # Demo
 
 https://revplit.com/github/demos/password-generator-js/index
 
 # Support
+
 
 If you've any questions or suggestions you can contact us on: https://discord.gg/DCe3m7p
 
