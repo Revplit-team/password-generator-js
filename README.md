@@ -2,7 +2,7 @@
 
 A simple password generator that helps your protect all your important accounts.
 
-<img src="https://i.imgur.com/b5GrHhj.png">
+<img src="https://i.imgur.com/Yi8GKk7.gif">
 
 
 |  | Minimum | Maximum |
