@@ -8,8 +8,8 @@ A simple password generator that helps your protect all your important accounts.
 |  | Minimum | Maximum |
 | --- | --- | --- |
 | Lenght | 6 | 64 |
-| digits | 0 | 10 |
-| symbols | 0 | 10 |
+| Digits | 0 | 10 |
+| Symbols | 0 | 10 |
 
  
 Demo
